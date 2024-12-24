@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
         }
 
     s.platform          = :osx, :ios, :tvos, :visionos
-    s.source            = { :http => 'https://github.com/wang-bin/mdk-sdk/releases/download/v0.30.1/mdk-sdk-apple.tar.xz' }
+    s.source            = { :http => 'https://sourceforge.net/projects/mdk-sdk/files/mdk-sdk-apple.tar.xz' }
     s.vendored_frameworks = 'mdk-sdk/lib/mdk.xcframework'
 #    s.osx.vendored_libraries = 'mdk-sdk/lib/mdk.xcframework/macos-arm64_x86_64/mdk.framework/Versions/A/libffmpeg.7.dylib', 'mdk-sdk/lib/mdk.xcframework/macos-arm64_x86_64/mdk.framework/Versions/A/libass.dylib', 'mdk-sdk/lib/mdk.xcframework/macos-arm64_x86_64/mdk.framework/Versions/A/libmdk-braw.dylib', 'mdk-sdk/lib/mdk.xcframework/macos-arm64_x86_64/mdk.framework/Versions/A/libmdk-r3d.dylib'
     s.osx.deployment_target = '10.13'
